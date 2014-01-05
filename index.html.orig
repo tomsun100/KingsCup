@@ -19,6 +19,7 @@ body{
 	font-family: "Helvetica Neue";
 	text-align: center;
 	color: black;
+
 }
 
 .btn {
@@ -40,7 +41,10 @@ body{
 }
 
 .text{
-	font-size: 20px;
+<<<<<<< HEAD
+=======
+	font-size: 30px;
+>>>>>>> gh-pages
 	text-align: center;
 	margin-top: 30px;
 }
@@ -56,30 +60,21 @@ body{
 	margin-bottom: 30px;
 }
 
-
+<<<<<<< HEAD
+=======
 #move{
 	font-size: 25px;
 	text-align: center;
 	margin-bottom: 30px;
 }
 
+>>>>>>> gh-pages
 #draw{
 	margin-left: 115px;	
 }
 </style>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-46842415-1', 'kingscup.ca');
-  ga('send', 'pageview');
-
-</script>
 
 <script>
 
@@ -97,7 +92,10 @@ function getCounts(deck){
 
 $(document).ready(function(){
 
+<<<<<<< HEAD
+=======
 	var move = "";
+>>>>>>> gh-pages
 
 	shuffle(deck);
 
@@ -107,6 +105,8 @@ $(document).ready(function(){
 
 		$("#card").text(deck[deck.length-1]);
 
+<<<<<<< HEAD
+=======
 		var card = deck[deck.length-1];
 
 		switch (card) {
@@ -153,6 +153,7 @@ $(document).ready(function(){
 
 		$("#move").text(move);
 
+>>>>>>> gh-pages
 		deck.pop();
 
 		$("#count").text(getCounts(deck));
@@ -168,15 +169,24 @@ $(document).ready(function(){
 
 <div class="h1">King's Cup</div>
 
+<<<<<<< HEAD
+<div class="text">Your Current Card is </div>
+
+
+<div id="card">Joker</div>
+
+<div class="text">Cards Left in Deck: </div>
+=======
 <div class="text">Current Card</div>
 
 <div id="card">Joker</div>
 
 <div class="text">Move</div>
 
-<div id="move">Start the Game</div>
+<div id="move">Draw a card. :)</div>
 
 <div class="text">Cards Left in Deck</div>
+>>>>>>> gh-pages
 
 <div id="count"></div>
 
