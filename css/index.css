@@ -1,0 +1,56 @@
+body{
+	font-family: "Helvetica Neue";
+	width: 480px;
+}
+
+.h1{
+	font-family: "Helvetica Neue";
+	text-align: center;
+	color: black;
+}
+
+.btn {
+  font-family: "Helvetica Neue";
+  color: #ffffff;
+  background-color: #1abc9c;
+  border: none;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 1.4;
+  border-radius: 4px;
+  padding: 10px 15px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transition: 0.25s linear;
+  transition: 0.25s linear;
+  width: 250px;
+  height: 75px;
+
+}
+
+.text{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#card{
+	font-size: 25px;
+	text-align: center;
+}
+
+#count{
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+#move{
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#draw{
+	margin-left: 115px;	
+}
